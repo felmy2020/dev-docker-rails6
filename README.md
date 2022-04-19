@@ -186,5 +186,6 @@ docker-compose run web  bundle exec rails webpacker:compile
 | docker-compose exec web /bin/bash  | 起動中の docker コンテナに入る         |
 | docker-compose run --rm web bash   | コンテナが起動していなくても利用できる |
 | rm src/tmp/pids/server.pid         | サーバの制御ファイルを削除             |
+| git remote set-url origin {new url}         | GIT PUSHのURL変更             |
 
 <br>
